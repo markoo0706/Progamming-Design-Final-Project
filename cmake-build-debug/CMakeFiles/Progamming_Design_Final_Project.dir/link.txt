@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Progamming_Design_Final_Project.dir/objects.a
-C:\MinGW\bin\ar.exe qc CMakeFiles\Progamming_Design_Final_Project.dir/objects.a @CMakeFiles\Progamming_Design_Final_Project.dir\objects1.rsp
-C:\MinGW\bin\mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\Progamming_Design_Final_Project.dir/objects.a -Wl,--no-whole-archive -o Progamming_Design_Final_Project.exe -Wl,--out-implib,libProgamming_Design_Final_Project.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Progamming_Design_Final_Project.dir\linklibs.rsp
