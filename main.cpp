@@ -2,10 +2,6 @@
 using namespace std;
 
 int main(){
-<<<<<<< Updated upstream
-    int test = 5;
-=======
-    int test = 3;
->>>>>>> Stashed changes
+    int test = 7;
     return 0;
 }
