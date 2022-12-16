@@ -2,9 +2,6 @@
 using namespace std;
 
 int main(){
-<<<<<<< HEAD
-    int test = 1;
-=======
->>>>>>> origin/AndyChen
+    int test = 5;
     return 0;
 }
