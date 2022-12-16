@@ -70,10 +70,10 @@ double** toDouble(string ** stringArray, int colNum,int rowNum){
     // 此函數需輸入 一個 二維的String陣列、行數以及列數，並吐出一個大小相同的 double二維陣列。
     double** outputArray = new double* [rowNum]; // 新增一個2維double Array，一格一格更新，最後return回去
 
-    for (int i = 0; i < rowNum; i ++)
+    for (int i = 0; i < rowNum; i ++) // 每一列
     {
         outputArray[i] = new double [colNum];
-        for (int j = 0; j < rowNum; j ++)
+        for (int j = 0; j < colNum; j ++) // 每一行
         {
             string aString = stringArray[i][j];
             if (j == 0) //  第一column，代表此string為日期
