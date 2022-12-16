@@ -7,6 +7,7 @@ using namespace std;
 
 void loadPrice(const string& fileName, string** priceInfo, const int colNum);
 void loadEco();
+double ** toDouble(string** , int, int);
 
 int main(){
 
@@ -63,4 +64,33 @@ void loadEco(char* fileName, double** ecoInfo, int ecoNum){
     ifstream myFile;
     myFile.open(fileName);
     myFile.close();
+}
+
+double** toDouble(string ** stringArray, int colNum,int rowNum){
+    // 此函數需輸入 一個 二維的String陣列、行數以及列數，並吐出一個大小相同的 double二維陣列。
+    double** outputArray = new double* [rowNum]; // 新增一個2維double Array，一格一格更新，最後return回去
+
+    for (int i = 0; i < rowNum; i ++)
+    {
+        outputArray[i] = new double [colNum];
+        for (int j = 0; j < rowNum; j ++)
+        {
+            string aString = stringArray[i][j];
+            if (j == 0) //  第一column，代表此string為日期
+            {
+                string dateStr = aString.substr(0,2); 
+                string monthStr = aString.substr(3,5);
+                string yearStr = aString.substr(6,10);
+                double date = 0;
+                date = stod(yearStr) * 10000 + stod(monthStr) * 100 + stod(dateStr);
+                outputArray[i][j] = date;
+            }
+            else // 代表此string為單純數字
+            {
+                double num = stod(aString); // 把數字轉為 double 
+                outputArray[i][j] = num;
+            }
+        }
+    }
+    return outputArray;
 }
