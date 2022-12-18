@@ -17,11 +17,14 @@ double findHigh(double** sheet, int dateIndex); //找當日最高價
 double findLow(double** sheet, int dateIndex); //找當日最低價
 
 int findDateIndex(double** sheet, double date){
+    int dateIndex = 0;
     for(int i = 0; i < 7888; i++){
         if(sheet[i][0] == date){
-            return i;
+            dateIndex = i;
+            break;
         }
     }
+    return dateIndex;
 }
 
 double findClose(double** sheet, int dateIndex){
@@ -45,7 +48,7 @@ double demandIndex(double** sheet, int dateIndex){
 }
 
 double EMA12(double** sheet, int dateIndex){
-    if(dateIndex = 7885){
+    if(dateIndex == 7885){
         double DI12 = 0;
         for(int i = 0; i < 12; i++){
             DI12 += static_cast<double>(static_cast<int>((demandIndex(sheet, dateIndex + i) / 12) * 100)) / 100;
@@ -61,7 +64,7 @@ double EMA12(double** sheet, int dateIndex){
 }
 
 double EMA26(double** sheet, int dateIndex){
-    if(dateIndex = 7871){
+    if(dateIndex == 7871){
         double DI26 = 0;
         for(int i = 0; i < 26; i++){
             DI26 += static_cast<double>(static_cast<int>((demandIndex(sheet, dateIndex + i) / 26) * 100)) / 100;
