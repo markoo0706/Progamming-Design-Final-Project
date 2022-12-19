@@ -8,27 +8,14 @@ using namespace std;
 void loadPrice(const string& fileName, string** priceInfo, const int colNum);
 void loadEco();
 double** toDouble(string** , int, int);
-double** dataToCsv();
+double** dataToCsv(double** doubleArr, const int arrRow, const int arrCol);
 
 #include <SFML/Graphics.hpp>
 
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
 
-    while (window.isOpen())
-    {
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
-
-<<<<<<< Updated upstream
     //    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
 //    sf::CircleShape shape(100.f);
 //    shape.setFillColor(sf::Color::Green);
@@ -54,31 +41,11 @@ int main()
     string** priceInfo = new string*[rowNum]; // 7900為最大列數
     for(int i = 0; i < rowNum; i++){
         priceInfo[i] = new string[colNum];
-=======
-        window.clear();
-        window.draw(shape);
-        window.display();
->>>>>>> Stashed changes
     }
 
     return 0;
 }
 
-<<<<<<< Updated upstream
-=======
-//int main(){
-//
-//    string fileName = R"(C:\Users\Andy Chen\Documents\GitHub\Progamming-Design-Final-Project\SP500_date.csv)";
-//    const int rowNum = 7900;
-//    const int colNum = 5;
-//    string** priceInfo = new string*[rowNum]; // 7900為最大列數
-//    for(int i = 0; i < rowNum; i++){
-//        priceInfo[i] = new string[colNum];
-//    }
-//    loadPrice(fileName, priceInfo, colNum);
-//    return 0;
-//}
->>>>>>> Stashed changes
 void loadPrice(const string& fileName, string** priceInfo, const int colNum){ // 需要dateNum
     ifstream ifs;							//创建流对象
     ifs.open(fileName, ios::in);	//打开文件
