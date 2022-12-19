@@ -96,9 +96,9 @@ double** toDouble(string ** stringArray, int colNum,int rowNum){
             string aString = stringArray[i][j];
             if (j == 0) //  第一column，代表此string為日期
             {
-                string dateStr = aString.substr(0,2); 
-                string monthStr = aString.substr(3,5);
-                string yearStr = aString.substr(6,10);
+                string yearStr = aString.substr(0,4);
+                string monthStr = aString.substr(5,7);
+                string dateStr = aString.substr(8,10);
                 double date = 0;
                 date = stod(yearStr) * 10000 + stod(monthStr) * 100 + stod(dateStr);
                 outputArray[i][j] = date;
