@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Progamming_Design_Final_Project
+# Target rules for targets named MyProject
 
 # Build rule for target.
-Progamming_Design_Final_Project: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Progamming_Design_Final_Project
-.PHONY : Progamming_Design_Final_Project
+MyProject: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyProject
+.PHONY : MyProject
 
 # fast build rule for target.
-Progamming_Design_Final_Project/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Progamming_Design_Final_Project.dir\build.make CMakeFiles/Progamming_Design_Final_Project.dir/build
-.PHONY : Progamming_Design_Final_Project/fast
+MyProject/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/build
+.PHONY : MyProject/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Progamming_Design_Final_Project.dir\build.make CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Progamming_Design_Final_Project.dir\build.make CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Progamming_Design_Final_Project.dir\build.make CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyProject.dir\build.make CMakeFiles/MyProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Progamming_Design_Final_Project
+	@echo ... MyProject
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
