@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Progamming_Design_Final_Project.exe"
+			"path" : "MyProject.exe"
 		},
 		{
-			"path" : "Progamming_Design_Final_Project.pdb"
+			"path" : "MyProject.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -14,7 +14,7 @@
 		"commands" : 
 		[
 			"add_executable",
-			"include_directories"
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 6,
+				"line" : 17,
 				"parent" : 0
 			}
 		]
@@ -46,13 +46,17 @@
 			[
 				{
 					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++1z"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Andy Chen/Documents/GitHub/Progamming-Design-Final-Project/."
+					"isSystem" : true,
+					"path" : "C:/SFML/include"
 				}
 			],
 			"language" : "CXX",
@@ -62,7 +66,7 @@
 				[
 					1
 				],
-				"standard" : "14"
+				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[
@@ -70,7 +74,7 @@
 			]
 		}
 	],
-	"id" : "Progamming_Design_Final_Project::@6890427a1f51a3e7e1df",
+	"id" : "MyProject::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -84,14 +88,39 @@
 				"role" : "flags"
 			},
 			{
+				"backtrace" : 2,
+				"fragment" : "C:\\SFML\\lib\\libsfml-audio-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\SFML\\lib\\libsfml-network-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\SFML\\lib\\libsfml-graphics-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\SFML\\lib\\libsfml-window-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\SFML\\lib\\libsfml-system-d.a",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "Progamming_Design_Final_Project",
-	"nameOnDisk" : "Progamming_Design_Final_Project.exe",
+	"name" : "MyProject",
+	"nameOnDisk" : "MyProject.exe",
 	"paths" : 
 	{
 		"build" : ".",

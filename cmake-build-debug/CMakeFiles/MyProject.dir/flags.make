@@ -4,7 +4,7 @@
 # compile CXX with C:/mingw64/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = @CMakeFiles/Progamming_Design_Final_Project.dir/includes_CXX.rsp
+CXX_INCLUDES = @CMakeFiles/MyProject.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g
+CXX_FLAGS = -g -std=gnu++1z
 

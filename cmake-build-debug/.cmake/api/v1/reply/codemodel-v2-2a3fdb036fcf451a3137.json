@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.23"
+						"string" : "3.16"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Progamming_Design_Final_Project",
+					"name" : "MyProject",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Progamming_Design_Final_Project::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Progamming_Design_Final_Project-Debug-e1d65aac8b35c5f6b0d8.json",
-					"name" : "Progamming_Design_Final_Project",
+					"id" : "MyProject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyProject-Debug-144713a371de601057ca.json",
+					"name" : "MyProject",
 					"projectIndex" : 0
 				}
 			]

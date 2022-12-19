@@ -73,15 +73,15 @@ CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.obj: CMakeFiles/Progammi
 CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.obj: CMakeFiles/Progamming_Design_Final_Project.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Andy Chen\Documents\GitHub\Progamming-Design-Final-Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.obj -MF CMakeFiles\Progamming_Design_Final_Project.dir\main.cpp.obj.d -o CMakeFiles\Progamming_Design_Final_Project.dir\main.cpp.obj -c "C:\Users\Andy Chen\Documents\GitHub\Progamming-Design-Final-Project\main.cpp"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.obj -MF CMakeFiles\Progamming_Design_Final_Project.dir\main.cpp.obj.d -o CMakeFiles\Progamming_Design_Final_Project.dir\main.cpp.obj -c "C:\Users\Andy Chen\Documents\GitHub\Progamming-Design-Final-Project\main.cpp"
 
 CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Andy Chen\Documents\GitHub\Progamming-Design-Final-Project\main.cpp" > CMakeFiles\Progamming_Design_Final_Project.dir\main.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Andy Chen\Documents\GitHub\Progamming-Design-Final-Project\main.cpp" > CMakeFiles\Progamming_Design_Final_Project.dir\main.cpp.i
 
 CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Progamming_Design_Final_Project.dir/main.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Andy Chen\Documents\GitHub\Progamming-Design-Final-Project\main.cpp" -o CMakeFiles\Progamming_Design_Final_Project.dir\main.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Andy Chen\Documents\GitHub\Progamming-Design-Final-Project\main.cpp" -o CMakeFiles\Progamming_Design_Final_Project.dir\main.cpp.s
 
 # Object files for target Progamming_Design_Final_Project
 Progamming_Design_Final_Project_OBJECTS = \
