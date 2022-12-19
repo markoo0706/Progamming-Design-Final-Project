@@ -19,7 +19,11 @@
 			</Target>
 			<Target title="MyProject">
 				<Option output="C:/Users/Andy Chen/Documents/GitHub/Progamming-Design-Final-Project/cmake-build-debug/MyProject.exe" prefix_auto="0" extension_auto="0"/>
+<<<<<<< Updated upstream
 				<Option working_dir="C:/Users/Andy Chen/Documents/GitHub/Progamming-Design-Final-Project/cmake-build-debug"/>
+=======
+				<Option working_dir=""/>
+>>>>>>> Stashed changes
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -41,7 +45,11 @@
 			</Target>
 			<Target title="MyProject/fast">
 				<Option output="C:/Users/Andy Chen/Documents/GitHub/Progamming-Design-Final-Project/cmake-build-debug/MyProject.exe" prefix_auto="0" extension_auto="0"/>
+<<<<<<< Updated upstream
 				<Option working_dir="C:/Users/Andy Chen/Documents/GitHub/Progamming-Design-Final-Project/cmake-build-debug"/>
+=======
+				<Option working_dir=""/>
+>>>>>>> Stashed changes
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
